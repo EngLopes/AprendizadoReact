@@ -18,7 +18,9 @@ export default function Topo() {
         <Link href={"/useState/UseState"}>
           State
         </Link>
-
+        <Link href={"/useeffect/useeffect"}>
+          Effect
+        </Link>
         <Link href={
           {
             pathname: "/produtos/Produtos",
@@ -34,6 +36,10 @@ export default function Topo() {
 
         <Link href={"/inputs/inputs"}>
           Inputs
+        </Link>
+
+         <Link href={"/filtragem/filtragem"}>
+          Filtragem
         </Link>
       </nav>
     </div>
